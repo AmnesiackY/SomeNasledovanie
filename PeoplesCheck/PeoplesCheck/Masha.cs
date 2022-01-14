@@ -8,24 +8,29 @@ namespace PeoplesCheck
     {
         public override void Run()
         {
-            Console.WriteLine("You ran 3km");
+            Console.WriteLine("Run Forest, Run");
         }
         public override void Talk()
         {
-            Console.WriteLine("What's your name?");
+            Console.WriteLine("Do you have girlfriend?");
         }
         public override void GiveBirth()
         {
             Console.WriteLine("You can pregnant");
         }
-        public override void Pregnancy() 
+        public override void Pregnancy()
         {
             Random rnd = new Random();
-            Console.WriteLine($"You have {rnd.Next(5)}");
+            Console.WriteLine($"You have {rnd.Next(1,5)}");
         }
-        public void Iam() 
+        public void BanjoPlay()
         {
-            Console.WriteLine("My name Masha");
+            Console.WriteLine("Ding-dong-dong-dong");
+        }
+        public void HerdingCows() 
+        { 
+            Random rnd = new Random();
+            Console.WriteLine($"I've got {rnd.Next(3,20)} cows");
         }
     }
 }

@@ -25,7 +25,7 @@ namespace PeoplesCheck
         }
         public void BanjoPlay()
         {
-            Console.WriteLine("Ding-dong-dong-dong");
+            Console.WriteLine("Ding-dong-ding-dong");
         }
         public void HerdingCows() 
         { 
